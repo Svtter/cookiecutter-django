@@ -1,0 +1,1 @@
+# Thinghoo cookiecutter
