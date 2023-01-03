@@ -28,6 +28,7 @@ repos:
         types: [python]
         args:
           [
+            "--profile", "black",
             "--multi-line=3",
             "--trailing-comma",
             "--force-grid-wrap=0",
