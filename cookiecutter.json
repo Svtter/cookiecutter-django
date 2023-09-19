@@ -1,6 +1,6 @@
 {
-  "project_name": "Thinghoo Django Project",
+  "project_name": "Django Project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "full_name": "svtter",
-  "email": "xiuhao@thinghoo.com"
+  "email": "svtter@163.com"
 }
