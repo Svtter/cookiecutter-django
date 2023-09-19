@@ -20,8 +20,8 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [[tool.poetry.source]]
-name = "thinghoo"
-url = "https://nexus.beijing-epoch.com/repository/pypi-thinghoo-group/simple"
+name = "aliyun"
+url = "http://mirrors.cloud.aliyuncs.com/pypi/simple/"
 default = true
 
 # -- FILE: pytest.ini (or tox.ini)
