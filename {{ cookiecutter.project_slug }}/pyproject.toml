@@ -3,6 +3,7 @@ name = "{{cookiecutter.project_slug}}"
 version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -21,7 +22,7 @@ build-backend = "poetry.core.masonry.api"
 
 [[tool.poetry.source]]
 name = "aliyun"
-url = "http://mirrors.cloud.aliyuncs.com/pypi/simple/"
+url = "https://mirrors.aliyuncs.com/pypi/simple/"
 default = true
 
 # -- FILE: pytest.ini (or tox.ini)
