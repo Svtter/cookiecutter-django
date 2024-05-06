@@ -22,8 +22,8 @@ build-backend = "poetry.core.masonry.api"
 
 [[tool.poetry.source]]
 name = "aliyun"
-url = "https://mirrors.aliyuncs.com/pypi/simple/"
-default = true
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "default"
 
 # -- FILE: pytest.ini (or tox.ini)
 [tool.pytest.ini_options]
